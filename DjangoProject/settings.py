@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'shoe',
-    'bootstrap5'
+    'bootstrap5',
+    'django_daraja',
+
 ]
 
 MIDDLEWARE = [
@@ -137,3 +139,14 @@ STATICFILES_DIRS=(
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# mpesa environment configs. # use your own credentials
+MPESA_ENVIRONMENT = 'sandbox'
+MPESA_CONSUMER_KEY = 'WyOZ68WBJGEkWK2SlFOr1FuRKv6zDDoC'
+MPESA_CONSUMER_SECRET = '8BrnTTPe2oAIpcCt'
+MPESA_EXPRESS_SHORTCODE = '174379'
+MPESA_SHORTCODE_TYPE = 'paybill'
+MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'
+MPESA_INITIATOR_USERNAME = 'NewShoesApp'
+

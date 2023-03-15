@@ -25,7 +25,7 @@ h3
     font-size:12px;
     font-weight:normal;
     font-style:italic;
-    margin:0 0 20px
+    margin:0 0 0px
 }
 p {
     margin-top:0
@@ -38,7 +38,7 @@ ul
 
 #form-group
 {
-    width:200px;
+    width:100px;
     margin:0 auto;
     border:1px solid #ccc;
     padding:2px 5px;
@@ -55,7 +55,7 @@ url(images/preload.gif) no-repeat 50% 50%;
     border:10px solid #e3e3e3;
     z-index:1000
 }
-#tinymask {
+.tinymask {
     position:absolute;
     display:none;
     top:0;
@@ -69,16 +69,15 @@ url(images/preload.gif) no-repeat 50% 50%;
     background:#fff
 }
 form {
-    max-width: 100px;
-    margin: 10px auto;
-    padding: 5px 5px;
+    max-width: 50px;
+
     background: #f4f7f8;
     border-radius: 8px;
 }
 .container {
     font:14px Georgia,Verdana;
-    margin-bottom:10px;
-    padding:8px 10px 9px;
+
+
     border:1px solid #ccc;
     background:#eee;
     cursor:pointer}
